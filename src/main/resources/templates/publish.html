@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>发布 - 开源交流社区</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="css/commumity.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">开源交流社区</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">开源交流社区</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="搜索问题、话题">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li th:if="${session.user == null}"><a href="https://github.com/login/oauth/authorize?client_id=cd316dcc7d4211233c2a&redirect_uri=http://localhost:8080/callback&scope=user&state=2">登录</a></li>
+                <li class="dropdown" th:if="${session.user != null}">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" th:text="${session.user.getName()}"> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">个人中心</a></li>
+                        <li><a href="#">消息中心</a></li>
+                        <li><a href="#">登出</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+            <h2> <span class="glyphicon glyphicon-plus" aria-hidden="true">发起</span></h2>
+            <hr>
+            <form action="/publish" method="post">
+                <div class="form-group">
+                    <label for="title">问题标题(简单扼要)</label>
+                    <input type="text" th:value="${tag}" class="form-control" id="title" name="title" placeholder="请输入问题标题 ...">
+                </div>
+                <div class="form-group">
+                    <label for="title">问题补充(必填，请参照右侧提示)</label>
+                    <textarea class="form-control" th:text="${discription}" name="discription" id="discription" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="title">添加标签</label>
+                    <input type="text" th:value="${tag}" class="form-control"   id="tag" name="tag"  placeholder="输入问题标签，以，逗号分隔" >
+                </div>
+                <p id="error"  class="bg-danger" th:text="${error}" th:if="${error !=null}" style="text-align: center;"></p>
+                <p id="error2"  class="bg-danger" style="display: none; text-align: center;"></p>
+                <button id="submit" type="submit" onclick="send()" class="btn btn-success btn-publish">发布</button>
+            </form>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+            <h3>发布问题指南：</h3>
+                · 问题标题：请用精简语言描述您发布的问题，不超过25字
+                · 问题补充：详细描述您的问题内容，并确保问题描述清晰，并提供一些相关的资料！
+                · 选择一个标签，每个标签用逗号隔开
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    function send() {
+
+        $('form').submit(function (e) {
+
+
+            let title = $("#title").val()
+            let discription = $("#discription").val();
+            let tag = $("#tag").val();
+
+
+            if(title ==""){
+                $('#error2').text("标题不能为空").show()
+                console.log("标题不能为空")
+                e.preventDefault()
+                return
+            }
+            if(discription==""){
+                $('#error2').text("内容不能为空").show()
+                console.log("内容不能为空")
+                e.preventDefault()
+                return
+            }
+            if(tag==""){
+                $('#error2').text("标签不能为空").show()
+                console.log("标签不能为空")
+                e.preventDefault()
+                return
+            }
+
+            //$('form').submit()
+        })
+
+
+
+
+
+    }
+
+
+</script>

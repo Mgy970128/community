@@ -11,7 +11,8 @@ import top.mgy.community.mapper.UserMapper;
 import top.mgy.community.model.User;
 import top.mgy.community.provider.GithubProvider;
 
-import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 
 /**
@@ -39,7 +40,7 @@ public class AuthorizeController {
     @GetMapping("/callback")
     public String callback(@RequestParam(name = "code")String code,
                            @RequestParam("state")String state,
-                           HttpServletRequest request){
+                           HttpServletResponse response){
 
         AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
         accessTokenDTO.setClient_id(clientId);
@@ -51,19 +52,22 @@ public class AuthorizeController {
         GithubUser githubUser = githubProvider.getUser(accessToken);
         System.out.println(githubUser);
 
-        if(githubUser != null){
+        if(githubUser != null && githubUser.getId() != null){
             //登录成功
             //保存登录信息到数据库
             User user = new User();
-            user.setToken(UUID.randomUUID().toString());
+            String token = UUID.randomUUID().toString();
+            user.setToken(token);
             user.setName(githubUser.getName());
             user.setAccountId(String.valueOf(githubUser.getId()));
             user.setGmtCreate(System.currentTimeMillis());
             user.setGmtModified(user.getGmtCreate());
+            user.setAvatarUrl(githubUser.getAvatar_url());
             userMapper.insert(user);
-
+            //向浏览器写入用户登录cookie
+            response.addCookie(new Cookie("token",token));
             //获取session保存用户登录态
-            request.getSession().setAttribute("user",githubUser);
+            //request.getSession().setAttribute("user",githubUser);
             return "redirect:/";
         }else{
             //登录失败
