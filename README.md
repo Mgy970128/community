@@ -4,3 +4,8 @@
 Test
 
 ### 工具
+
+
+```base
+mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
+```

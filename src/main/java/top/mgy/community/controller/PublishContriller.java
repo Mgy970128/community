@@ -4,35 +4,47 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import top.mgy.community.mapper.QuestionMapper;
-import top.mgy.community.mapper.UserMapper;
+import top.mgy.community.dto.QuestionDTO;
 import top.mgy.community.model.Question;
 import top.mgy.community.model.User;
+import top.mgy.community.service.QuestionService;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class PublishContriller {
 
     @Autowired
-    private QuestionMapper questionMapper;
+    private QuestionService questionService;
 
-    @Autowired
-    private UserMapper userMapper;
-
+    /**
+     * 问题页面请求接口
+     * @return
+     */
     @GetMapping("/publish")
     public String publish(){
         return "publish";
     }
 
+    /**
+     * 问题提交接口
+     * @param title
+     * @param discription
+     * @param tag
+     * @param id
+     * @param request
+     * @param model
+     * @return
+     */
     @PostMapping("/publish")
     public String doPublisgh(
     @RequestParam("title") String title,
     @RequestParam("discription") String discription,
     @RequestParam("tag") String tag,
+    @RequestParam("id") Integer id,
     HttpServletRequest request,
     Model model
         ){
@@ -40,20 +52,7 @@ public class PublishContriller {
         model.addAttribute("discription",discription);
         model.addAttribute("tag",tag);
 
-        User user = null;
-        Cookie[] cookies = request.getCookies();
-        //获取当前登录用户
-        if(cookies!=null && cookies.length != 0){
-            for (Cookie cookie : cookies) {
-                if(cookie.getName().equals("token")){
-                    user = userMapper.findToken(cookie.getValue());
-                    break;
-                }
-            }
-        }
-
-
-
+        User user = (User) request.getSession().getAttribute("user");
         if(user == null){
             model.addAttribute("error","用户尚未登录");
             return "publish";
@@ -64,10 +63,26 @@ public class PublishContriller {
         question.setDescription(discription);
         question.setTag(tag);
         question.setCreator(user.getId());
-        question.setGmtCreate(System.currentTimeMillis());
-        question.setGmtModified(question.getGmtCreate());
-        questionMapper.create(question);
 
+        question.setId(id);
+        questionService.createOrUpdate(question);
         return "redirect:/";
+    }
+
+    /**
+     * 问题编辑接口
+     * @param id
+     * @param model
+     * @return
+     */
+    @GetMapping("/publish/{id}")
+    public String edit(@PathVariable("id") Integer id,Model model){
+
+        QuestionDTO question = questionService.getById(id);
+        model.addAttribute("title",question.getTitle());
+        model.addAttribute("discription",question.getDescription());
+        model.addAttribute("tag",question.getTag());
+        model.addAttribute("id",question.getId());
+        return "publish";
     }
 }
