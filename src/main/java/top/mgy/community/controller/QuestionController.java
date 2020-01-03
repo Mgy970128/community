@@ -1,15 +1,17 @@
 package top.mgy.community.controller;
 
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import top.mgy.community.dto.CommentDTO;
 import top.mgy.community.dto.QuestionDTO;
-import top.mgy.community.mapper.QuestionMapper;
-import top.mgy.community.model.Question;
+import top.mgy.community.enums.CommentTypeEunm;
+import top.mgy.community.service.CommentService;
 import top.mgy.community.service.QuestionService;
+
+import java.util.List;
 
 @Controller
 public class QuestionController {
@@ -17,14 +19,21 @@ public class QuestionController {
     @Autowired
     private QuestionService questionService;
 
+    @Autowired
+    private CommentService commentService;
+
     @GetMapping("/question/{id}")
-    public String question(@PathVariable("id") Integer id, Model model){
+    public String question(@PathVariable("id") Long id, Model model){
 
         //累加阅读数
         questionService.incView(id);
 
         QuestionDTO questionDTO = questionService.getById(id);
+
+        List<CommentDTO>  comments= commentService.listByTargetId(id, CommentTypeEunm.QUESTION);
+
         model.addAttribute("question",questionDTO);
+        model.addAttribute("comments",comments);
         return "question";
     }
 }

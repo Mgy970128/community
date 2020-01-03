@@ -44,7 +44,7 @@ public class PublishContriller {
     @RequestParam("title") String title,
     @RequestParam("discription") String discription,
     @RequestParam("tag") String tag,
-    @RequestParam("id") Integer id,
+    @RequestParam("id") Long id,
     HttpServletRequest request,
     Model model
         ){
@@ -76,7 +76,7 @@ public class PublishContriller {
      * @return
      */
     @GetMapping("/publish/{id}")
-    public String edit(@PathVariable("id") Integer id,Model model){
+    public String edit(@PathVariable("id") Long id,Model model){
 
         QuestionDTO question = questionService.getById(id);
         model.addAttribute("title",question.getTitle());
