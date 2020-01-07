@@ -1,5 +1,6 @@
 package top.mgy.community.controller;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import top.mgy.community.cache.TagCache;
 import top.mgy.community.dto.QuestionDTO;
 import top.mgy.community.model.Question;
 import top.mgy.community.model.User;
@@ -25,7 +27,8 @@ public class PublishContriller {
      * @return
      */
     @GetMapping("/publish")
-    public String publish(){
+    public String publish(Model model){
+        model.addAttribute("tags",TagCache.get());
         return "publish";
     }
 
@@ -51,12 +54,22 @@ public class PublishContriller {
         model.addAttribute("title",title);
         model.addAttribute("discription",discription);
         model.addAttribute("tag",tag);
+        model.addAttribute("tags",TagCache.get());
+
+
+        String invalid = TagCache.FilterInvalid(tag);
+        if(StringUtils.isNotBlank(invalid)){
+            model.addAttribute("error","输入非法标签! "+invalid);
+            return "publish";
+        }
 
         User user = (User) request.getSession().getAttribute("user");
         if(user == null){
             model.addAttribute("error","用户尚未登录");
             return "publish";
         }
+
+
 
         Question question = new Question();
         question.setTitle(title);
@@ -83,6 +96,7 @@ public class PublishContriller {
         model.addAttribute("discription",question.getDescription());
         model.addAttribute("tag",question.getTag());
         model.addAttribute("id",question.getId());
+        model.addAttribute("tags",TagCache.get());
         return "publish";
     }
 }

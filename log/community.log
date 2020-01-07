@@ -1,0 +1,128 @@
+2020-01-07 13:38:33.698  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:38:33.703  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:38:33.944  INFO 13712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 13:38:33.945  INFO 13712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-07 13:38:36.773  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:38:36.787  INFO 13712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:38:36.788  INFO 13712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:38:36.939  INFO 13712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:38:36.940  INFO 13712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2995 ms
+2020-01-07 13:38:37.007  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 13:38:37.009  WARN 13712 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:38:37.171  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 13:38:37.177  INFO 13712 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:38:37.957  INFO 13712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:38:38.050  INFO 13712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:38:38.581  INFO 13712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:38:38.643  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:38:38.647  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 6.201 seconds (JVM running for 8.713)
+2020-01-07 13:42:16.020  INFO 13712 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:16.021  INFO 13712 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-07 13:42:16.034  INFO 13712 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-07 13:42:17.063  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:42:17.063  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:42:17.584  WARN 13712 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:42:17.695  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:42:17.696  INFO 13712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:42:17.696  INFO 13712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:42:17.762  INFO 13712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:42:17.762  INFO 13712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 694 ms
+2020-01-07 13:42:17.780  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-07 13:42:17.780  WARN 13712 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:42:17.790  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-07 13:42:17.791  INFO 13712 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:42:18.030  INFO 13712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:18.050  INFO 13712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:42:18.341  INFO 13712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:42:18.357  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:42:18.359  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.378 seconds (JVM running for 228.425)
+2020-01-07 13:42:18.361  INFO 13712 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:42:21.611  INFO 13712 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:21.613  INFO 13712 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-07 13:42:21.622  INFO 13712 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-07 13:42:22.503  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:42:22.504  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:42:23.042  WARN 13712 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:42:23.194  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:42:23.194  INFO 13712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:42:23.195  INFO 13712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:42:23.241  INFO 13712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:42:23.241  INFO 13712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 734 ms
+2020-01-07 13:42:23.258  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-01-07 13:42:23.258  WARN 13712 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:42:23.263  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-01-07 13:42:23.264  INFO 13712 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:42:23.470  INFO 13712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:23.493  INFO 13712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:42:23.802  INFO 13712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:42:23.818  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:42:23.818  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.364 seconds (JVM running for 233.885)
+2020-01-07 13:42:23.820  INFO 13712 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:42:30.863  INFO 13712 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:30.867  INFO 13712 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-01-07 13:42:30.880  INFO 13712 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-01-07 13:42:31.829  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:42:31.830  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:42:32.208  WARN 13712 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:42:32.364  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:42:32.364  INFO 13712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:42:32.365  INFO 13712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:42:32.417  INFO 13712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:42:32.418  INFO 13712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 586 ms
+2020-01-07 13:42:32.435  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-01-07 13:42:32.435  WARN 13712 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:42:32.440  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-01-07 13:42:32.440  INFO 13712 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:42:32.643  INFO 13712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:32.665  INFO 13712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:42:32.954  INFO 13712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:42:32.967  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:42:32.968  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.178 seconds (JVM running for 243.035)
+2020-01-07 13:42:32.970  INFO 13712 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:42:42.653  INFO 13712 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:42.654  INFO 13712 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-01-07 13:42:42.665  INFO 13712 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-01-07 13:42:43.810  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:42:43.810  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:42:44.651  WARN 13712 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:42:44.819  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:42:44.820  INFO 13712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:42:44.820  INFO 13712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:42:44.879  INFO 13712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:42:44.879  INFO 13712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1065 ms
+2020-01-07 13:42:44.896  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-01-07 13:42:44.897  WARN 13712 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:42:44.964  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-01-07 13:42:44.964  INFO 13712 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:42:45.461  INFO 13712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:45.482  INFO 13712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:42:45.904  INFO 13712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:42:45.922  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:42:45.922  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 2.192 seconds (JVM running for 255.988)
+2020-01-07 13:42:45.924  INFO 13712 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:42:48.144  INFO 13712 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:48.144  INFO 13712 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-01-07 13:42:48.148  INFO 13712 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-01-07 13:42:50.047  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:42:50.047  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:42:50.604  WARN 13712 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:42:50.885  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:42:50.887  INFO 13712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:42:50.887  INFO 13712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:42:51.065  INFO 13712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:42:51.065  INFO 13712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1015 ms
+2020-01-07 13:42:51.111  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-01-07 13:42:51.112  WARN 13712 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:42:51.124  INFO 13712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-01-07 13:42:51.125  INFO 13712 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:42:51.400  INFO 13712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:42:51.432  INFO 13712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:42:51.824  INFO 13712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:42:51.838  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:42:51.841  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.874 seconds (JVM running for 261.907)
+2020-01-07 13:42:51.845  INFO 13712 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:43:47.503  INFO 13712 --- [Thread-44] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:43:47.506  INFO 13712 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-01-07 13:43:47.510  INFO 13712 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-01-07 13:43:48.660  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:43:48.661  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default

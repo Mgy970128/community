@@ -79,20 +79,75 @@ function collapseComments(e) {
         comments.removeClass("in")
         $(e).removeClass("comment-active")
     }else {
-        //展开二级评论
-        $.getJSON("/comment/"+id,function (data) {
-            //获取数据成功后打开折叠
+        console.log(1111)
+        let commentBody = $("#comment-"+id);
+
+        //判断是否已经加载了评论数据
+        if(commentBody.children().length !=1){
             comments.addClass("in")
             $(e).addClass("comment-active")
-            console.log(data)
-            console.log(vue._data)
+        }else {
+            $.getJSON("/comment/"+id,function (data) {
+                console.log(data)
+                //获取数据成功后打开折叠
+                $.each(data.data.reverse(),function (index,comment) {
 
-            vue._data.res = data
-        })
+                    let mediaLeftElement = $("<div/>",{
+                        "class":"media-left"
+                    }).append($("<img/>",{
+                        "class":"media-object img-rounded",
+                        "scr":comment.user.avatarUrl
+                    }));
 
+                    let mediaBodyElement = $("<div/>",{
+                        "class":"media-body"
+                    }).append($("<h6/>",{
+                        "class":"media-heading",
+                        "html":comment.user.name
+                    })).append($("<div/>",{
+                        "html":comment.content
+                    })).append($("<div/>",{
+                        "class":"menu"
+                    }).append($("<span/>",{
+                        "class":"pull-right date",
+                        "html":formatDate(comment.gmtCreate)
+                    })));
+
+                    let mediaElement = $("<div/>",{
+                        "class":"media"
+                    }).append(mediaLeftElement).append(mediaBodyElement);
+
+
+                    let comentElement = $("<div/>",{
+                        class:"col-lg-12 col-md-12 col-sm-12 col-xs-12 comments",
+                    }).append(mediaElement);
+
+                    commentBody.prepend(comentElement)
+                });
+                comments.addClass("in")
+                $(e).addClass("comment-active")
+
+            });
+        }
 
 
 
     }
+}
 
+function selectTag(e) {
+    let value = e.getAttribute("data-tag")
+    let previous = $('#tag').val()
+    //如果不包含当前点击标签
+    if(previous.indexOf(value) == -1){
+        if(previous){
+            $('#tag').val(previous+','+value)
+        }else {
+            $('#tag').val(value)
+        }
+    }
+}
+
+function showSelectTag() {
+   $('#select-tag').show();
 }

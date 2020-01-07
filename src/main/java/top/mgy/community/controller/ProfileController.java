@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import top.mgy.community.dto.PaginationDTO;
+import top.mgy.community.model.Notification;
 import top.mgy.community.model.User;
+import top.mgy.community.service.NotificationServies;
 import top.mgy.community.service.QuestionService;
 import javax.servlet.http.HttpServletRequest;
 
@@ -16,6 +18,9 @@ public class ProfileController {
 
     @Autowired
     private QuestionService questionService;
+
+    @Autowired
+    private NotificationServies notificationServies;
 
     @GetMapping("/profile/{action}")
     public String profile(@PathVariable("action") String action, Model model,HttpServletRequest request,
@@ -34,13 +39,19 @@ public class ProfileController {
         if("questions".equals(action)){
             model.addAttribute("section","questions");
             model.addAttribute("sectionName","我的提问");
+            PaginationDTO paginationDTO = questionService.list(user.getId(), page, size);
+            model.addAttribute("pagination",paginationDTO);
         }else if("repies".equals(action)){
+            PaginationDTO paginationDTO = notificationServies.list(user.getId(),page,size);
+            Long unreadCount = notificationServies.unreadCount(user.getId());
+            model.addAttribute("pagination",paginationDTO);
             model.addAttribute("section","repies");
             model.addAttribute("sectionName","最新回复");
+
+
         }
 
-        PaginationDTO paginationDTO = questionService.list(user.getId(), page, size);
-        model.addAttribute("pagination",paginationDTO);
+
         return "profile";
     }
 }

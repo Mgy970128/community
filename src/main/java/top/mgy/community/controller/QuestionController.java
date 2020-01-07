@@ -22,18 +22,25 @@ public class QuestionController {
     @Autowired
     private CommentService commentService;
 
+    /**
+     * 获取问题与评论
+     * @param id
+     * @param model
+     * @return
+     */
     @GetMapping("/question/{id}")
     public String question(@PathVariable("id") Long id, Model model){
-
         //累加阅读数
         questionService.incView(id);
-
         QuestionDTO questionDTO = questionService.getById(id);
+
+        List<QuestionDTO>  relatedQuestion= questionService.selectRelated(questionDTO);
 
         List<CommentDTO>  comments= commentService.listByTargetId(id, CommentTypeEunm.QUESTION);
 
         model.addAttribute("question",questionDTO);
         model.addAttribute("comments",comments);
+        model.addAttribute("relatedQuestion",relatedQuestion);
         return "question";
     }
 }

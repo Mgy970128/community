@@ -2,12 +2,16 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>发布 - 开源交流社区</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="/css/commumity.css"/>
+    <link rel="stylesheet" href="/css/editormd.min.css">
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/community.js"></script>
+    <script src="/js/editormd.min.js"></script>
+
 
 </head>
 <body>
@@ -17,35 +21,84 @@
 <div class="container-fluid main">
     <div class="row">
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-            <h2> <span class="glyphicon glyphicon-plus" aria-hidden="true">发起</span></h2>
+            <h2><span class="glyphicon glyphicon-plus" aria-hidden="true">发起</span></h2>
             <hr>
             <form action="/publish" method="post">
                 <input type="hidden" name="id" th:value="${id}">
                 <div class="form-group">
                     <label for="title">问题标题(简单扼要)</label>
-                    <input type="text" th:value="${title}" class="form-control" id="title" name="title" placeholder="请输入问题标题 ...">
+                    <input type="text" autocomplete="off" th:value="${title}" class="form-control" id="title"
+                           name="title" placeholder="请输入问题标题 ...">
                 </div>
-                <div class="form-group">
+                <div class="form-group" id="question_editor">
                     <label for="title">问题补充(必填，请参照右侧提示)</label>
-                    <textarea class="form-control" th:text="${discription}" name="discription" id="discription" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" th:text="${discription}" style="display: none;" name="discription"
+                              id="discription" cols="30" rows="10"></textarea>
+                    <script type="text/javascript">
+                        $(function () {
+                            var editor = editormd("question_editor", {
+                                width: "100%",
+                                height: "350px",
+                                path: "/js/lib/",
+                                delay:0,
+                                watch:false,
+                                placeholder:"请输入问题的描述！",
+                                imageUpload:true,
+                                imageFormats:["jpg","jpeg","gif","png","bmp","webp"],
+                                imageUploadURL:"/file/upload"
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="form-group">
                     <label for="title">添加标签</label>
-                    <input type="text" th:value="${tag}" class="form-control"   id="tag" name="tag"  placeholder="输入问题标签，以，逗号分隔" >
+                    <input type="text" onclick="showSelectTag()" autocomplete="off" th:value="${tag}"
+                           class="form-control" id="tag" name="tag" placeholder="点击选择标签">
+
+                    <div id="select-tag" class="publish-tag-tab">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" th:each="selectCategory,selectCategoryStat:${tags}"
+                                th:class="${selectCategoryStat.first ? 'active':''}">
+                                <a th:href="${'#'+selectCategory.categoryName}" aria-controls="home" role="tab"
+                                   data-toggle="tab" th:text="${selectCategory.categoryName}"></a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" th:each="selectCategory:${tags}" th:id="${selectCategory.categoryName}"
+                                 th:class="${selectCategoryStat.first?'active tab-pane':'tab-pane'}">
+                                <span class="label label-info" th:each="selectTag:${selectCategory.tags}">
+                                    <span class="glyphicon glyphicon-tags" onclick="selectTag(this)"
+                                          th:data-tag="${selectTag}" th:text="${'&nbsp;'+selectTag}"></span>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
                 </div>
-                <p id="error"  class="bg-danger" th:text="${error}" th:if="${error !=null}" style="text-align: center;"></p>
-                <p id="error2"  class="bg-danger" style="display: none; text-align: center;"></p>
+                <p id="error" class="bg-danger" th:text="${error}" th:if="${error !=null}"
+                   style="text-align: center;"></p>
+                <p id="error2" class="bg-danger" style="display: none; text-align: center;"></p>
                 <button id="submit" type="submit" onclick="send()" class="btn btn-success btn-publish">发布</button>
             </form>
         </div>
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
             <h3>发布问题指南：</h3>
-                · 问题标题：请用精简语言描述您发布的问题，不超过25字
-                · 问题补充：详细描述您的问题内容，并确保问题描述清晰，并提供一些相关的资料！
-                · 选择一个标签，每个标签用逗号隔开
+            <ol>
+                <li>问题标题：请用精简语言描述您发布的问题，不超过25字</li>
+                <li>问题补充：详细描述您的问题内容，并确保问题描述清晰，并提供一些相关的资料！</li>
+                <li>选择一个标签，每个标签用逗号隔开</li>
+            </ol>
         </div>
     </div>
 </div>
+<!--footer-->
+<div th:insert="~{footer :: foot}"></div>
 </body>
 </html>
 
@@ -60,19 +113,19 @@
             let tag = $("#tag").val();
 
 
-            if(title ==""){
+            if (title == "") {
                 $('#error2').text("标题不能为空").show()
                 console.log("标题不能为空")
                 e.preventDefault()
                 return
             }
-            if(discription==""){
+            if (discription == "") {
                 $('#error2').text("内容不能为空").show()
                 console.log("内容不能为空")
                 e.preventDefault()
                 return
             }
-            if(tag==""){
+            if (tag == "") {
                 $('#error2').text("标签不能为空").show()
                 console.log("标签不能为空")
                 e.preventDefault()
@@ -81,9 +134,6 @@
 
             //$('form').submit()
         })
-
-
-
 
 
     }

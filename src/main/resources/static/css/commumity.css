@@ -26,10 +26,10 @@ body{
 }
 
 .community-menu{
-    display: block;
     color: #999;
     font-size: 13px;
     margin-bottom: 15px;
+    width: 50px;
 }
 .jumbotron{
     margin: 50px;
@@ -66,6 +66,15 @@ margin: 10px 0px;
 .question-title{
     margin-top: 25px;
 }
+.question-tag{
+    margin-right: 5px;
+}
+.question-rated{
+    line-height: 25px;
+    font-size: 14px;
+    list-style: none;
+    padding-left: 0;
+}
 .comment-sub{
     border-radius: 8px;
     margin-top: 10px;
@@ -76,3 +85,26 @@ margin: 10px 0px;
 .comment-sub .btn{
     margin: 10px 0;
 }
+.date{
+    color: #999;
+}
+.wechat{
+    width: 100%;
+}
+
+.publish-tag-tab{
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.publish-tag-tab .label-info{
+    margin: 5px 5px;
+    white-space: normal;
+    display: inline-block;
+}
+.footer{
+    padding:10px 25%;
+    color: #666;
+}
+

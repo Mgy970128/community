@@ -7,6 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 import top.mgy.community.mapper.UserMapper;
 import top.mgy.community.model.User;
 import top.mgy.community.model.UserExample;
+import top.mgy.community.service.NotificationServies;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -18,6 +19,9 @@ public class SessionInterceptor implements HandlerInterceptor {
 
     @Autowired
     private UserMapper userMapper;
+
+    @Autowired
+    private NotificationServies notificationServies;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -36,6 +40,8 @@ public class SessionInterceptor implements HandlerInterceptor {
                     if(users.size() != 0){
                         //设置session
                         request.getSession().setAttribute("user",users.get(0));
+                        Long unreadCount = notificationServies.unreadCount(users.get(0).getId());
+                        request.getSession().setAttribute("unreadCount",unreadCount);
                     }
                     break;
                 }
