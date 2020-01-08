@@ -67,7 +67,7 @@ public class QuestionService {
             page = totalPage;
         }
         //计算页码对应的偏移量  size * (page - 1)
-        Integer offset = size*(page-1);
+        Integer offset = page < 1? 0 : size*(page-1);
         //获取问题
         //分页查询
         QuestionExample questionExample = new QuestionExample();
