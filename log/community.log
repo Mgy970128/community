@@ -126,3 +126,510 @@
 2020-01-07 13:43:47.510  INFO 13712 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
 2020-01-07 13:43:48.660  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 13712 (D:\community\target\classes started by Administrator in D:\community)
 2020-01-07 13:43:48.661  INFO 13712 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:43:53.726  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:43:53.729  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:43:53.827  INFO 6232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 13:43:53.828  INFO 6232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-07 13:43:55.998  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:43:56.010  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:43:56.011  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:43:56.204  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:43:56.205  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2377 ms
+2020-01-07 13:43:56.297  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 13:43:56.299  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:43:56.489  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 13:43:56.498  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:43:57.662  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:43:57.767  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:43:58.582  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:43:58.649  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:43:58.658  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 5.682 seconds (JVM running for 7.959)
+2020-01-07 13:56:01.264  INFO 6232 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:56:01.265  INFO 6232 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-07 13:56:01.279  INFO 6232 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-07 13:56:02.478  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:56:02.479  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:56:02.988  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:56:03.112  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:56:03.113  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:56:03.113  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:56:03.180  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:56:03.180  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 698 ms
+2020-01-07 13:56:03.197  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-07 13:56:03.198  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:56:03.207  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-07 13:56:03.207  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:56:03.430  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:56:03.451  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:56:04.023  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:56:04.047  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:56:04.053  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.624 seconds (JVM running for 733.354)
+2020-01-07 13:56:04.055  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:56:24.271  INFO 6232 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:56:24.272  INFO 6232 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-07 13:56:24.286  INFO 6232 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-07 13:56:25.236  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:56:25.238  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:56:25.737  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:56:25.858  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:56:25.859  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:56:25.859  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:56:25.919  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:56:25.919  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 677 ms
+2020-01-07 13:56:25.941  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-01-07 13:56:25.941  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:56:25.947  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-01-07 13:56:25.947  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:56:26.180  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:56:26.200  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:56:26.549  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:56:26.567  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:56:26.569  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.403 seconds (JVM running for 755.87)
+2020-01-07 13:56:26.572  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:57:25.597  INFO 6232 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:25.598  INFO 6232 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-01-07 13:57:25.605  INFO 6232 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-01-07 13:57:26.637  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:57:26.638  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:57:27.455  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:57:27.560  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:57:27.561  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:57:27.561  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:57:27.606  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:57:27.606  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 962 ms
+2020-01-07 13:57:27.630  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-01-07 13:57:27.630  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:57:27.641  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-01-07 13:57:27.641  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:57:27.871  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:27.890  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:57:28.262  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:57:28.275  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:57:28.276  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.815 seconds (JVM running for 817.577)
+2020-01-07 13:57:28.277  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:57:36.217  INFO 6232 --- [Thread-35] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:36.218  INFO 6232 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-01-07 13:57:36.226  INFO 6232 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-01-07 13:57:37.371  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:57:37.371  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:57:37.791  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:57:37.977  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:57:37.978  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:57:37.978  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:57:38.037  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:57:38.037  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 663 ms
+2020-01-07 13:57:38.061  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-01-07 13:57:38.062  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:57:38.071  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-01-07 13:57:38.072  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:57:38.487  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:38.513  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:57:38.902  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:57:38.916  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:57:38.916  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.584 seconds (JVM running for 828.217)
+2020-01-07 13:57:38.918  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:57:42.593  INFO 6232 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:42.597  INFO 6232 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-01-07 13:57:42.613  INFO 6232 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-01-07 13:57:43.423  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:57:43.424  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:57:43.766  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:57:44.063  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:57:44.064  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:57:44.064  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:57:44.117  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:57:44.119  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 693 ms
+2020-01-07 13:57:44.137  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-01-07 13:57:44.137  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:57:44.142  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-01-07 13:57:44.142  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:57:44.390  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:44.568  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:57:44.969  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:57:44.985  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:57:44.986  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.604 seconds (JVM running for 834.287)
+2020-01-07 13:57:44.988  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:57:48.495  INFO 6232 --- [Thread-45] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:48.496  INFO 6232 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-01-07 13:57:48.507  INFO 6232 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-01-07 13:57:49.695  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:57:49.695  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:57:50.029  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:57:50.144  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:57:50.144  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:57:50.145  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:57:50.196  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:57:50.196  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 499 ms
+2020-01-07 13:57:50.220  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-01-07 13:57:50.220  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:57:50.231  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-01-07 13:57:50.231  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:57:50.486  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:50.505  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:57:50.908  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:57:50.922  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:57:50.923  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.268 seconds (JVM running for 840.223)
+2020-01-07 13:57:50.924  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:57:56.255  INFO 6232 --- [Thread-50] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:56.256  INFO 6232 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-01-07 13:57:56.261  INFO 6232 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-01-07 13:57:57.159  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:57:57.160  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:57:57.530  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:57:57.653  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:57:57.653  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:57:57.654  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:57:57.771  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:57:57.771  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 608 ms
+2020-01-07 13:57:57.803  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2020-01-07 13:57:57.803  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:57:57.816  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2020-01-07 13:57:57.816  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:57:58.097  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:57:58.132  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:57:58.561  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:57:58.578  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:57:58.579  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.462 seconds (JVM running for 847.88)
+2020-01-07 13:57:58.581  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:58:03.548  INFO 6232 --- [Thread-55] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:58:03.549  INFO 6232 --- [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2020-01-07 13:58:03.553  INFO 6232 --- [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2020-01-07 13:58:04.424  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 6232 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 13:58:04.424  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 13:58:04.785  WARN 6232 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-07 13:58:04.964  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 13:58:04.964  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 13:58:04.964  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 13:58:05.027  INFO 6232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 13:58:05.027  INFO 6232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 599 ms
+2020-01-07 13:58:05.053  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2020-01-07 13:58:05.053  WARN 6232 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 13:58:05.078  INFO 6232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2020-01-07 13:58:05.078  INFO 6232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 13:58:05.382  INFO 6232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 13:58:05.407  INFO 6232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 13:58:05.770  INFO 6232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 13:58:05.786  INFO 6232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 13:58:05.787  INFO 6232 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 1.401 seconds (JVM running for 855.087)
+2020-01-07 13:58:05.790  INFO 6232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-07 13:58:44.995  INFO 6232 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 13:58:44.996  INFO 6232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-07 13:58:45.005  INFO 6232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-01-07 13:58:45.087 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.mapper.QuestionExtMapper.incView   : ==>  Preparing: update question set VIEW_COUNT = VIEW_COUNT + ? where id = ? 
+2020-01-07 13:58:45.123 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.mapper.QuestionExtMapper.incView   : ==> Parameters: 1(Integer), 21(Long)
+2020-01-07 13:58:45.259 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.mapper.QuestionExtMapper.incView   : <==    Updates: 1
+2020-01-07 13:58:45.264 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectByPrimaryKey             : ==>  Preparing: select id, title, gmt_create, gmt_modified, creator, comment_count, view_count, like_count, tag , description from question where id = ? 
+2020-01-07 13:58:45.264 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectByPrimaryKey             : ==> Parameters: 21(Long)
+2020-01-07 13:58:45.298 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectByPrimaryKey             : <==      Total: 1
+2020-01-07 13:58:45.312 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:45.312 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:45.313 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:45.323 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.selectRelated  : ==>  Preparing: select * from QUESTION where id != ? and tag regexp ? 
+2020-01-07 13:58:45.324 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.selectRelated  : ==> Parameters: 21(Long), Java|Spring(String)
+2020-01-07 13:58:45.330 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.selectRelated  : <==      Total: 5
+2020-01-07 13:58:45.379 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.C.selectByExampleWithBLOBs       : ==>  Preparing: select id, parent_id, type, commentator, gmt_create, gmt_modified, like_count, comment_count , content from comment WHERE ( parent_id = ? and type = ? ) order by gmt_create desc 
+2020-01-07 13:58:45.379 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.C.selectByExampleWithBLOBs       : ==> Parameters: 21(Long), 1(Integer)
+2020-01-07 13:58:45.381 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.C.selectByExampleWithBLOBs       : <==      Total: 1
+2020-01-07 13:58:45.384 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( id in ( ? ) ) 
+2020-01-07 13:58:45.385 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: 6(Long)
+2020-01-07 13:58:45.386 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:58:53.550 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-01-07 13:58:53.550 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-01-07 13:58:53.552 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-01-07 13:58:53.553 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?,? 
+2020-01-07 13:58:53.553 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-01-07 13:58:53.556 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-01-07 13:58:53.557 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:53.557 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:53.560 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:53.560 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:53.561 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:53.562 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:53.562 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:53.563 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:53.564 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:53.564 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:53.564 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:53.565 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:53.566 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:53.567 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:53.568 DEBUG 6232 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:57.338 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-01-07 13:58:57.339 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-01-07 13:58:57.340 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-01-07 13:58:57.342 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?,? 
+2020-01-07 13:58:57.342 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-01-07 13:58:57.347 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-01-07 13:58:57.347 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:57.348 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:57.349 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:57.350 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:57.350 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:57.352 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:57.354 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:57.354 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:57.356 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:57.357 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:57.357 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:57.358 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:58:57.359 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:58:57.360 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:58:57.361 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:59:06.179 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.QuestionExtMapper.incView   : ==>  Preparing: update question set VIEW_COUNT = VIEW_COUNT + ? where id = ? 
+2020-01-07 13:59:06.180 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.QuestionExtMapper.incView   : ==> Parameters: 1(Integer), 21(Long)
+2020-01-07 13:59:06.302 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.QuestionExtMapper.incView   : <==    Updates: 1
+2020-01-07 13:59:06.303 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.Q.selectByPrimaryKey             : ==>  Preparing: select id, title, gmt_create, gmt_modified, creator, comment_count, view_count, like_count, tag , description from question where id = ? 
+2020-01-07 13:59:06.304 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.Q.selectByPrimaryKey             : ==> Parameters: 21(Long)
+2020-01-07 13:59:06.306 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.Q.selectByPrimaryKey             : <==      Total: 1
+2020-01-07 13:59:06.308 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:59:06.308 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:59:06.309 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:59:06.310 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.QuestionExtMapper.selectRelated  : ==>  Preparing: select * from QUESTION where id != ? and tag regexp ? 
+2020-01-07 13:59:06.310 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.QuestionExtMapper.selectRelated  : ==> Parameters: 21(Long), Java|Spring(String)
+2020-01-07 13:59:06.311 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.QuestionExtMapper.selectRelated  : <==      Total: 5
+2020-01-07 13:59:06.312 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.C.selectByExampleWithBLOBs       : ==>  Preparing: select id, parent_id, type, commentator, gmt_create, gmt_modified, like_count, comment_count , content from comment WHERE ( parent_id = ? and type = ? ) order by gmt_create desc 
+2020-01-07 13:59:06.313 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.C.selectByExampleWithBLOBs       : ==> Parameters: 21(Long), 1(Integer)
+2020-01-07 13:59:06.313 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.C.selectByExampleWithBLOBs       : <==      Total: 1
+2020-01-07 13:59:06.314 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( id in ( ? ) ) 
+2020-01-07 13:59:06.315 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: 6(Long)
+2020-01-07 13:59:06.316 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:15.811 DEBUG 6232 --- [http-nio-8080-exec-8] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( account_id = ? ) 
+2020-01-07 13:59:15.812 DEBUG 6232 --- [http-nio-8080-exec-8] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: 40348786(String)
+2020-01-07 13:59:15.813 DEBUG 6232 --- [http-nio-8080-exec-8] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:15.820 DEBUG 6232 --- [http-nio-8080-exec-8] t.m.c.m.U.updateByExampleSelective       : ==>  Preparing: update user SET name = ?, token = ?, gmt_modified = ?, avatar_url = ? WHERE ( id = ? ) 
+2020-01-07 13:59:15.821 DEBUG 6232 --- [http-nio-8080-exec-8] t.m.c.m.U.updateByExampleSelective       : ==> Parameters: Mgy(String), c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String), 1578376755813(Long), https://avatars2.githubusercontent.com/u/40348786?v=4(String), 6(Long)
+2020-01-07 13:59:15.867 DEBUG 6232 --- [http-nio-8080-exec-8] t.m.c.m.U.updateByExampleSelective       : <==    Updates: 1
+2020-01-07 13:59:15.893 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 13:59:15.893 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 13:59:15.897 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:15.903 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 13:59:15.903 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 13:59:15.905 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 13:59:15.906 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-01-07 13:59:15.906 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-01-07 13:59:15.907 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-01-07 13:59:15.907 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?,? 
+2020-01-07 13:59:15.908 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-01-07 13:59:15.909 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-01-07 13:59:15.910 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:59:15.910 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:59:15.911 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:59:15.911 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:59:15.911 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:59:15.912 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:59:15.912 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:59:15.913 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:59:15.913 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:59:15.914 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:59:15.914 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:59:15.916 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:59:15.917 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 13:59:15.917 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 13:59:15.918 DEBUG 6232 --- [http-nio-8080-exec-6] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 13:59:15.988 DEBUG 6232 --- [http-nio-8080-exec-7] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 13:59:15.989 DEBUG 6232 --- [http-nio-8080-exec-7] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 13:59:15.990 DEBUG 6232 --- [http-nio-8080-exec-7] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:15.990 DEBUG 6232 --- [http-nio-8080-exec-7] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 13:59:15.991 DEBUG 6232 --- [http-nio-8080-exec-7] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 13:59:15.992 DEBUG 6232 --- [http-nio-8080-exec-4] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 13:59:15.992 DEBUG 6232 --- [http-nio-8080-exec-7] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 13:59:15.993 DEBUG 6232 --- [http-nio-8080-exec-4] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 13:59:15.993 DEBUG 6232 --- [http-nio-8080-exec-4] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:15.994 DEBUG 6232 --- [http-nio-8080-exec-4] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 13:59:15.994 DEBUG 6232 --- [http-nio-8080-exec-4] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 13:59:15.996 DEBUG 6232 --- [http-nio-8080-exec-4] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 13:59:16.001 DEBUG 6232 --- [http-nio-8080-exec-3] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 13:59:16.001 DEBUG 6232 --- [http-nio-8080-exec-3] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 13:59:16.004 DEBUG 6232 --- [http-nio-8080-exec-3] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:16.006 DEBUG 6232 --- [http-nio-8080-exec-3] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 13:59:16.007 DEBUG 6232 --- [http-nio-8080-exec-3] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 13:59:16.008 DEBUG 6232 --- [http-nio-8080-exec-3] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 13:59:16.018 DEBUG 6232 --- [http-nio-8080-exec-10] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 13:59:16.019 DEBUG 6232 --- [http-nio-8080-exec-10] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 13:59:16.020 DEBUG 6232 --- [http-nio-8080-exec-10] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:16.021 DEBUG 6232 --- [http-nio-8080-exec-10] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 13:59:16.020 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 13:59:16.022 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 13:59:16.021 DEBUG 6232 --- [http-nio-8080-exec-10] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 13:59:16.023 DEBUG 6232 --- [http-nio-8080-exec-10] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 13:59:16.023 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:16.024 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 13:59:16.024 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 13:59:16.025 DEBUG 6232 --- [http-nio-8080-exec-2] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 13:59:16.131 DEBUG 6232 --- [http-nio-8080-exec-5] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 13:59:16.132 DEBUG 6232 --- [http-nio-8080-exec-5] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 13:59:16.134 DEBUG 6232 --- [http-nio-8080-exec-5] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 13:59:16.135 DEBUG 6232 --- [http-nio-8080-exec-5] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 13:59:16.136 DEBUG 6232 --- [http-nio-8080-exec-5] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 13:59:16.137 DEBUG 6232 --- [http-nio-8080-exec-5] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 18:28:22.282  INFO 14732 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 14732 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 18:28:22.285  INFO 14732 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 18:28:22.353  INFO 14732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 18:28:22.354  INFO 14732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-07 18:28:24.152  INFO 14732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 18:28:24.165  INFO 14732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 18:28:24.165  INFO 14732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 18:28:24.524  INFO 14732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 18:28:24.525  INFO 14732 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2170 ms
+2020-01-07 18:28:24.621  INFO 14732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 18:28:24.625  WARN 14732 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 18:28:24.962  INFO 14732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 18:28:24.969  INFO 14732 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 18:28:26.309  INFO 14732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 18:28:26.401  INFO 14732 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 18:28:26.931  INFO 14732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 18:28:26.994  INFO 14732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 18:28:26.997  INFO 14732 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 5.151 seconds (JVM running for 7.097)
+2020-01-07 20:05:33.132  INFO 9796 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 9796 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 20:05:33.136  INFO 9796 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 20:05:33.222  INFO 9796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 20:05:33.222  INFO 9796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-07 20:05:35.341  INFO 9796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 20:05:35.362  INFO 9796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 20:05:35.363  INFO 9796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 20:05:35.586  INFO 9796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 20:05:35.586  INFO 9796 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2363 ms
+2020-01-07 20:05:35.650  INFO 9796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 20:05:35.655  WARN 9796 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 20:05:35.851  INFO 9796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 20:05:35.856  INFO 9796 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 20:05:36.983  INFO 9796 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:05:37.112  INFO 9796 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 20:05:37.744  INFO 9796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 20:05:37.819  INFO 9796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 20:05:37.825  INFO 9796 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 5.193 seconds (JVM running for 7.432)
+2020-01-07 20:05:46.042  INFO 9796 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 20:05:46.043  INFO 9796 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-07 20:05:46.077  INFO 9796 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-01-07 20:05:46.249 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:46.284 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:46.318 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:46.332 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:46.332 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:46.335 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:46.383 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-01-07 20:05:46.384 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-01-07 20:05:46.388 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-01-07 20:05:46.390 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?,? 
+2020-01-07 20:05:46.391 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-01-07 20:05:46.409 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-01-07 20:05:46.411 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:46.411 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:46.417 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:46.434 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:46.435 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:46.436 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:46.437 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:46.437 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:46.438 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:46.439 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:46.439 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:46.441 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:46.441 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:46.441 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:46.442 DEBUG 9796 --- [http-nio-8080-exec-2] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:47.042 DEBUG 9796 --- [http-nio-8080-exec-7] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:47.042 DEBUG 9796 --- [http-nio-8080-exec-3] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:47.042 DEBUG 9796 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:47.043 DEBUG 9796 --- [http-nio-8080-exec-7] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:47.043 DEBUG 9796 --- [http-nio-8080-exec-3] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:47.043 DEBUG 9796 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:47.044 DEBUG 9796 --- [http-nio-8080-exec-7] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:47.044 DEBUG 9796 --- [http-nio-8080-exec-3] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:47.044 DEBUG 9796 --- [http-nio-8080-exec-6] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:47.045 DEBUG 9796 --- [http-nio-8080-exec-7] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:47.046 DEBUG 9796 --- [http-nio-8080-exec-7] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:47.046 DEBUG 9796 --- [http-nio-8080-exec-5] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:47.048 DEBUG 9796 --- [http-nio-8080-exec-7] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:47.049 DEBUG 9796 --- [http-nio-8080-exec-4] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:47.050 DEBUG 9796 --- [http-nio-8080-exec-4] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:47.053 DEBUG 9796 --- [http-nio-8080-exec-3] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:47.054 DEBUG 9796 --- [http-nio-8080-exec-3] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:47.055 DEBUG 9796 --- [http-nio-8080-exec-4] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:47.055 DEBUG 9796 --- [http-nio-8080-exec-3] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:47.056 DEBUG 9796 --- [http-nio-8080-exec-6] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:47.053 DEBUG 9796 --- [http-nio-8080-exec-5] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:47.057 DEBUG 9796 --- [http-nio-8080-exec-6] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:47.057 DEBUG 9796 --- [http-nio-8080-exec-4] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:47.058 DEBUG 9796 --- [http-nio-8080-exec-4] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:47.059 DEBUG 9796 --- [http-nio-8080-exec-6] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:47.059 DEBUG 9796 --- [http-nio-8080-exec-4] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:47.066 DEBUG 9796 --- [http-nio-8080-exec-5] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:47.068 DEBUG 9796 --- [http-nio-8080-exec-5] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:47.068 DEBUG 9796 --- [http-nio-8080-exec-5] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:47.069 DEBUG 9796 --- [http-nio-8080-exec-5] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:47.435 DEBUG 9796 --- [http-nio-8080-exec-1] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:47.435 DEBUG 9796 --- [http-nio-8080-exec-1] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:47.436 DEBUG 9796 --- [http-nio-8080-exec-1] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:47.438 DEBUG 9796 --- [http-nio-8080-exec-1] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:47.439 DEBUG 9796 --- [http-nio-8080-exec-1] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:47.440 DEBUG 9796 --- [http-nio-8080-exec-1] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:53.053 DEBUG 9796 --- [http-nio-8080-exec-8] t.m.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user WHERE ( token = ? ) 
+2020-01-07 20:05:53.054 DEBUG 9796 --- [http-nio-8080-exec-8] t.m.c.mapper.UserMapper.selectByExample  : ==> Parameters: c96eb844-34cd-4ea3-9bed-7ab5abc329f1(String)
+2020-01-07 20:05:53.055 DEBUG 9796 --- [http-nio-8080-exec-8] t.m.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-01-07 20:05:53.057 DEBUG 9796 --- [http-nio-8080-exec-8] t.m.c.m.N.countByExample                 : ==>  Preparing: select count(*) from notification WHERE ( receiver = ? and status = ? ) 
+2020-01-07 20:05:53.057 DEBUG 9796 --- [http-nio-8080-exec-8] t.m.c.m.N.countByExample                 : ==> Parameters: 6(Long), 0(Integer)
+2020-01-07 20:05:53.058 DEBUG 9796 --- [http-nio-8080-exec-8] t.m.c.m.N.countByExample                 : <==      Total: 1
+2020-01-07 20:05:53.078 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-01-07 20:05:53.079 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-01-07 20:05:53.081 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-01-07 20:05:53.082 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?,? 
+2020-01-07 20:05:53.083 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-01-07 20:05:53.085 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-01-07 20:05:53.086 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:53.086 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:53.087 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:53.088 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:53.088 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:53.089 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:53.090 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:53.090 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:53.094 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:53.095 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:53.095 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:53.097 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:05:53.097 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:05:53.097 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:05:53.099 DEBUG 9796 --- [http-nio-8080-exec-9] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:07:02.686  INFO 1204 --- [restartedMain] top.mgy.community.CommunityApplication   : Starting CommunityApplication on SC-201805061314 with PID 1204 (D:\community\target\classes started by Administrator in D:\community)
+2020-01-07 20:07:02.690  INFO 1204 --- [restartedMain] top.mgy.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2020-01-07 20:07:02.781  INFO 1204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-07 20:07:02.781  INFO 1204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-07 20:07:04.549  INFO 1204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-07 20:07:04.563  INFO 1204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-07 20:07:04.564  INFO 1204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 20:07:04.861  INFO 1204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-07 20:07:04.861  INFO 1204 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2080 ms
+2020-01-07 20:07:04.985  INFO 1204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-07 20:07:04.989  WARN 1204 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-07 20:07:05.224  INFO 1204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-07 20:07:05.230  INFO 1204 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/community?serverTimezone=CTT&useUnicode=true&characterEncoding=UTF-8'
+2020-01-07 20:07:06.365  INFO 1204 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:07:06.485  INFO 1204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-07 20:07:07.181  INFO 1204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-07 20:07:07.244  INFO 1204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-07 20:07:07.248  INFO 1204 --- [restartedMain] top.mgy.community.CommunityApplication   : Started CommunityApplication in 5.025 seconds (JVM running for 7.078)
+2020-01-07 20:07:11.128  INFO 1204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 20:07:11.128  INFO 1204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-07 20:07:11.141  INFO 1204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-01-07 20:07:11.227 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-01-07 20:07:11.257 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-01-07 20:07:11.283 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-01-07 20:07:11.286 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?,? 
+2020-01-07 20:07:11.287 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-01-07 20:07:11.295 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.Q.selectBySearch                 : <==      Total: 5
+2020-01-07 20:07:11.296 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:07:11.296 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:07:11.297 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:07:11.309 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:07:11.309 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:07:11.310 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:07:11.311 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:07:11.311 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:07:11.313 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:07:11.313 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:07:11.313 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:07:11.315 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-01-07 20:07:11.315 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, avatar_url from user where id = ? 
+2020-01-07 20:07:11.315 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 6(Long)
+2020-01-07 20:07:11.316 DEBUG 1204 --- [http-nio-8080-exec-1] t.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
