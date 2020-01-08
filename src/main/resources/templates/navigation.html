@@ -24,14 +24,11 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="/profile/repies">通知<span class="badge" th:text="${session.unreadCount}"></span></a></li>
                         <li><a href="/publish">发布</a></li>
-<<<<<<< HEAD
                         <li th:if="${session.user == null}">
-                            <!--<a href="https://github.com/login/oauth/authorize?client_id=cd316dcc7d4211233c2a&redirect_uri=http://localhost:8080/callback&scope=user&state=2">登录</a>-->
                             <a th:href="@{https://github.com/login/oauth/authorize(client_id='cd316dcc7d4211233c2a',redirect_uri=${#httpServletRequest.getRequestURL()+'callback'},scope='user',state=2)}">登录</a>
                         </li>
-=======
                         <li th:if="${session.user == null}"><a th:href="@{https://github.com/login/oauth/authorize(client_id='cd316dcc7d4211233c2a',redirect_uri=${#httpServletRequest.getRequestURL()+'callback'},scope='user',state=2)}">登录</a></li>
->>>>>>> ad9d0a900d16d10d1768c3ec60bbc32017f18266
+
                         <li class="dropdown" th:if="${session.user != null}">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ><span th:text="${session.user.getName()}"></span> <span class="caret"></span></a>
                             <ul class="dropdown-menu">
